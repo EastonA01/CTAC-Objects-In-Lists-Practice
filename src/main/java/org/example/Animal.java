@@ -44,6 +44,7 @@ public class Animal {
             }
         }
         for (Animal a : list) {
+            // Not using toString() as this object (which is already a string!) is itself returned.
             System.out.println(a.getName() + " is a dog = " + a.isDog());
         }
     }
