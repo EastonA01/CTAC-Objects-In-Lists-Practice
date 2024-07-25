@@ -26,7 +26,7 @@ public class TvShow {
     // Main function
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        ArrayList<TvShow> shows = new ArrayList<TvShow>();
+        ArrayList<TvShow> shows = new ArrayList<>();
         while(true){
             System.out.println("Name of the show: ");
             String name = sc.nextLine();

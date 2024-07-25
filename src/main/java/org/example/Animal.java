@@ -24,7 +24,7 @@ public class Animal {
     // Main
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        ArrayList<Animal> list = new ArrayList<Animal>();
+        ArrayList<Animal> list = new ArrayList<>();
         System.out.println("Animal Menu");
         System.out.println("Entering nothing will stop the loop.");
         while(true){

@@ -25,7 +25,7 @@ public class Book {
     // Main
     public static void main(String[] args){
         // Array
-        ArrayList<Book> books = new ArrayList<Book>();
+        ArrayList<Book> books = new ArrayList<>();
         // Create books for user to query
        books.add(new Book("To Kill A Mockingbird", 281, 1960));
        books.add(new Book("A Brief History of Time", 256, 1988));
